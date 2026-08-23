@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="160dp"
+    android:height="160dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Background -->
+    <path android:fillColor="#C8E6C9" android:pathData="M0,0h100v100h-100z"/>
+
+    <!-- Stars -->
+    <path android:fillColor="#81C784" android:pathData="M14,18 L15.5,14 L17,18 L21,19.5 L17,21 L15.5,25 L14,21 L10,19.5z"/>
+    <path android:fillColor="#A5D6A7" android:pathData="M82,14 L83,12 L84,14 L86,14.7 L84,15.5 L83,17.5 L82,15.5 L80,14.7z"/>
+    <path android:fillColor="#81C784" android:pathData="M84,76 L85,74 L86,76 L88,76.7 L86,77.5 L85,79.5 L84,77.5 L82,76.7z"/>
+
+    <!-- Face oval -->
+    <path android:fillColor="#FDBCB4"
+        android:pathData="M50,28 C70,28 80,42 80,60 C80,78 70,92 50,92 C30,92 20,78 20,60 C20,42 30,28 50,28 Z"/>
+
+    <!-- Hair -->
+    <path android:fillColor="#4E342E"
+        android:pathData="M18,60 C18,22 32,10 50,10 C68,10 82,22 82,60 C78,35 63,27 50,27 C37,27 22,35 18,60 Z"/>
+
+    <!-- Left eye closed (happy curve) -->
+    <path android:pathData="M30,56 Q37,50 44,56"
+        android:fillColor="#00000000"
+        android:strokeColor="#3E2723"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"/>
+
+    <!-- Right eye closed -->
+    <path android:pathData="M56,56 Q63,50 70,56"
+        android:fillColor="#00000000"
+        android:strokeColor="#3E2723"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"/>
+
+    <!-- Left cheek -->
+    <path android:fillColor="#FFCDD2" android:pathData="M18,67 a9,5 0 1,0 18,0 a9,5 0 1,0 -18,0"/>
+
+    <!-- Right cheek -->
+    <path android:fillColor="#FFCDD2" android:pathData="M64,67 a9,5 0 1,0 18,0 a9,5 0 1,0 -18,0"/>
+
+    <!-- Smile -->
+    <path android:pathData="M32,72 Q50,86 68,72"
+        android:fillColor="#00000000"
+        android:strokeColor="#C2185B"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"/>
+
+    <!-- Teeth -->
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M36,74 Q50,84 64,74 Q58,81 50,83 Q42,81 36,74 Z"/>
+
+</vector>

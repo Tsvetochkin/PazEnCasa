@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="160dp"
+    android:height="160dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Background -->
+    <path android:fillColor="#FFCDD2" android:pathData="M0,0h100v100h-100z"/>
+
+    <!-- Lightning bolts -->
+    <path android:fillColor="#FDD835"
+        android:pathData="M10,18 L16,32 L12,32 L20,52 L14,52 L24,72 L17,50 L22,50 L16,30 L20,30 L10,18 Z"/>
+    <path android:fillColor="#FDD835"
+        android:pathData="M90,18 L84,32 L88,32 L80,52 L86,52 L76,72 L83,50 L78,50 L84,30 L80,30 L90,18 Z"/>
+
+    <!-- Face oval (very red) -->
+    <path android:fillColor="#EF9A9A"
+        android:pathData="M50,28 C70,28 80,42 80,60 C80,78 70,92 50,92 C30,92 20,78 20,60 C20,42 30,28 50,28 Z"/>
+
+    <!-- Hair -->
+    <path android:fillColor="#4E342E"
+        android:pathData="M18,60 C18,22 32,10 50,10 C68,10 82,22 82,60 C78,35 63,27 50,27 C37,27 22,35 18,60 Z"/>
+
+    <!-- Left eye (wide/intense) -->
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M28,52 a9,8 0 1,0 18,0 a9,8 0 1,0 -18,0"/>
+    <path android:fillColor="#1A237E"
+        android:pathData="M33,52 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0"/>
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M32,49 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0"/>
+
+    <!-- Right eye -->
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M54,52 a9,8 0 1,0 18,0 a9,8 0 1,0 -18,0"/>
+    <path android:fillColor="#1A237E"
+        android:pathData="M59,52 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0"/>
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M58,49 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0"/>
+
+    <!-- Furious eyebrows (very steep V) -->
+    <path android:pathData="M23,50 Q35,39 46,45"
+        android:fillColor="#00000000"
+        android:strokeColor="#3E2723"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"/>
+    <path android:pathData="M54,45 Q65,39 77,50"
+        android:fillColor="#00000000"
+        android:strokeColor="#3E2723"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"/>
+
+    <!-- Open mouth interior -->
+    <path android:fillColor="#C62828"
+        android:pathData="M28,72 Q50,90 72,72 Q65,86 50,89 Q35,86 28,72 Z"/>
+
+    <!-- Teeth -->
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M32,75 L68,75 L65,81 L35,81 Z"/>
+
+    <!-- Red rage cheeks -->
+    <path android:fillColor="#EF5350" android:pathData="M18,65 a9,5 0 1,0 18,0 a9,5 0 1,0 -18,0"/>
+    <path android:fillColor="#EF5350" android:pathData="M64,65 a9,5 0 1,0 18,0 a9,5 0 1,0 -18,0"/>
+
+</vector>

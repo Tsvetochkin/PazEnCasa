@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="160dp"
+    android:height="160dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Background -->
+    <path android:fillColor="#FFE0B2" android:pathData="M0,0h100v100h-100z"/>
+
+    <!-- Steam lines above head -->
+    <path android:pathData="M22,16 Q25,11 28,16 Q31,11 34,16"
+        android:fillColor="#00000000"
+        android:strokeColor="#FF5722"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"/>
+    <path android:pathData="M62,16 Q65,11 68,16 Q71,11 74,16"
+        android:fillColor="#00000000"
+        android:strokeColor="#FF5722"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"/>
+
+    <!-- Face oval (slightly reddish) -->
+    <path android:fillColor="#F5B0A0"
+        android:pathData="M50,28 C70,28 80,42 80,60 C80,78 70,92 50,92 C30,92 20,78 20,60 C20,42 30,28 50,28 Z"/>
+
+    <!-- Hair -->
+    <path android:fillColor="#4E342E"
+        android:pathData="M18,60 C18,22 32,10 50,10 C68,10 82,22 82,60 C78,35 63,27 50,27 C37,27 22,35 18,60 Z"/>
+
+    <!-- Left eye -->
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M30,54 a8,7 0 1,0 16,0 a8,7 0 1,0 -16,0"/>
+    <path android:fillColor="#3E2723"
+        android:pathData="M34,54 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0"/>
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M33,51 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0"/>
+
+    <!-- Right eye -->
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M54,54 a8,7 0 1,0 16,0 a8,7 0 1,0 -16,0"/>
+    <path android:fillColor="#3E2723"
+        android:pathData="M58,54 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0"/>
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M57,51 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0"/>
+
+    <!-- Angry eyebrows (V shape, inner ends higher) -->
+    <path android:pathData="M26,48 Q36,40 45,45"
+        android:fillColor="#00000000"
+        android:strokeColor="#4E342E"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"/>
+    <path android:pathData="M55,45 Q64,40 74,48"
+        android:fillColor="#00000000"
+        android:strokeColor="#4E342E"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"/>
+
+    <!-- Red cheeks (anger, not blush) -->
+    <path android:fillColor="#FFAB91" android:pathData="M18,66 a9,5 0 1,0 18,0 a9,5 0 1,0 -18,0"/>
+    <path android:fillColor="#FFAB91" android:pathData="M64,66 a9,5 0 1,0 18,0 a9,5 0 1,0 -18,0"/>
+
+    <!-- Clear frown -->
+    <path android:pathData="M32,76 Q50,66 68,76"
+        android:fillColor="#00000000"
+        android:strokeColor="#B71C1C"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"/>
+
+</vector>

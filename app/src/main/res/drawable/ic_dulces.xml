@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- Chocolate bar wrapper (outer) -->
+    <path android:fillColor="#795548"
+        android:pathData="M15,30 Q10,30 10,35 L10,65 Q10,70 15,70 L85,70 Q90,70 90,65 L90,35 Q90,30 85,30 Z"/>
+    <!-- Foil/wrapper highlight -->
+    <path android:fillColor="#8D6E63"
+        android:pathData="M15,30 Q10,30 10,35 L10,50 L90,50 L90,35 Q90,30 85,30 Z"/>
+    <!-- Grid lines (chocolate pieces) -->
+    <path android:pathData="M38,30 L38,70"
+        android:fillColor="#00000000"
+        android:strokeColor="#5D4037"
+        android:strokeWidth="2"/>
+    <path android:pathData="M62,30 L62,70"
+        android:fillColor="#00000000"
+        android:strokeColor="#5D4037"
+        android:strokeWidth="2"/>
+    <path android:pathData="M10,50 L90,50"
+        android:fillColor="#00000000"
+        android:strokeColor="#5D4037"
+        android:strokeWidth="2"/>
+    <!-- Shine -->
+    <path android:fillColor="#A1887F"
+        android:pathData="M18,35 L32,35 L32,38 L18,38 Z"/>
+</vector>

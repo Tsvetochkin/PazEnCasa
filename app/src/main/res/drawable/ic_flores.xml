@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- Stem -->
+    <path android:pathData="M50,62 L50,90"
+        android:fillColor="#00000000"
+        android:strokeColor="#388E3C"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"/>
+    <!-- Leaf -->
+    <path android:fillColor="#4CAF50"
+        android:pathData="M50,75 Q62,65 68,70 Q60,80 50,75 Z"/>
+    <!-- Petals (5, rotated using groups) -->
+    <group android:pivotX="50" android:pivotY="50" android:rotation="0">
+        <path android:fillColor="#EC407A"
+            android:pathData="M44,32 Q50,18 56,32 Q60,44 50,48 Q40,44 44,32 Z"/>
+    </group>
+    <group android:pivotX="50" android:pivotY="50" android:rotation="72">
+        <path android:fillColor="#F06292"
+            android:pathData="M44,32 Q50,18 56,32 Q60,44 50,48 Q40,44 44,32 Z"/>
+    </group>
+    <group android:pivotX="50" android:pivotY="50" android:rotation="144">
+        <path android:fillColor="#EC407A"
+            android:pathData="M44,32 Q50,18 56,32 Q60,44 50,48 Q40,44 44,32 Z"/>
+    </group>
+    <group android:pivotX="50" android:pivotY="50" android:rotation="216">
+        <path android:fillColor="#F06292"
+            android:pathData="M44,32 Q50,18 56,32 Q60,44 50,48 Q40,44 44,32 Z"/>
+    </group>
+    <group android:pivotX="50" android:pivotY="50" android:rotation="288">
+        <path android:fillColor="#EC407A"
+            android:pathData="M44,32 Q50,18 56,32 Q60,44 50,48 Q40,44 44,32 Z"/>
+    </group>
+    <!-- Center circle -->
+    <path android:fillColor="#FDD835"
+        android:pathData="M38,50 a12,12 0 1,0 24,0 a12,12 0 1,0 -24,0"/>
+</vector>

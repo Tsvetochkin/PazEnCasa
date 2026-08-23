@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- Heart -->
+    <path android:fillColor="#E91E63"
+        android:pathData="M50,38 C50,38 34,22 22,30 C10,38 12,56 26,66 L50,82 L74,66 C88,56 90,38 78,30 C66,22 50,38 50,38 Z"/>
+    <!-- Small sparkles -->
+    <path android:fillColor="#F48FB1"
+        android:pathData="M76,18 L77.5,14 L79,18 L83,19.5 L79,21 L77.5,25 L76,21 L72,19.5z"/>
+    <path android:fillColor="#FCE4EC"
+        android:pathData="M16,22 L17,20 L18,22 L20,22.7 L18,23.5 L17,25.5 L16,23.5 L14,22.7z"/>
+</vector>

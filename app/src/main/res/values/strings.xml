@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">PazEnCasa</string>
+    <string name="app_title">PazEnCasa</string>
+
+    <!-- Auth -->
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Contraseña</string>
+    <string name="nombre_hint">Nombre</string>
+    <string name="login_btn">Iniciar sesión</string>
+    <string name="register_btn">Registrarse</string>
+    <string name="register_title">Crear cuenta</string>
+    <string name="login_subtitle">Mantené la paz en casa</string>
+    <string name="register_subtitle">Creá tu cuenta para comenzar</string>
+    <string name="already_have_account">¿Ya tenés cuenta? Iniciá sesión</string>
+    <string name="no_account_yet">¿No tenés cuenta? Registrate</string>
+    <string name="login_success">Sesión iniciada</string>
+    <string name="register_success">Cuenta creada exitosamente</string>
+    <string name="auth_failed">Autenticación fallida</string>
+    <string name="invalid_email">Email inválido</string>
+    <string name="empty_field_error">Completá todos los campos</string>
+    <string name="loading">Cargando…</string>
+
+    <!-- Account -->
+    <string name="logout_btn">Cerrar sesión</string>
+    <string name="menu_btn">Menú</string>
+    <string name="change_password_btn">Cambiar contraseña</string>
+    <string name="new_password_hint">Nueva contraseña</string>
+    <string name="password_updated">Contraseña actualizada</string>
+    <string name="delete_account_btn">Eliminar cuenta</string>
+    <string name="account_deleted">Cuenta eliminada</string>
+    <string name="confirm_delete_msg">¿Estás seguro? Esta acción no se puede deshacer.</string>
+    <string name="reauth_title">Confirmá tu identidad</string>
+    <string name="reauth_msg">Ingresá tu contraseña actual para continuar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="confirm">Confirmar</string>
+
+    <!-- Happiness meter -->
+    <string name="danger_label">% de felicidad</string>
+    <string name="estado_tranquila">😊 ¡Está feliz y enamorada!</string>
+    <string name="estado_cuidado">😐 Anda más o menos… mejorá</string>
+    <string name="estado_enojada">😠 Está enojada, necesita cariño</string>
+    <string name="estado_furiosa">🤬 ¡MODO FURIA! Hacé algo YA</string>
+
+    <!-- Actions -->
+    <string name="accion_palabras">Palabras\ntiernas</string>
+    <string name="accion_dulces">Dulces</string>
+    <string name="accion_flores">Flores</string>
+    <string name="accion_flores_grandes">Ramo\ngrande</string>
+    <string name="accion_joyeria">Joyería</string>
+    <string name="accion_salida">Salida\n(cine/teatro)</string>
+
+    <string name="req_palabras">4 veces por día</string>
+    <string name="req_dulces">2 veces por semana</string>
+    <string name="req_flores">2 veces por mes</string>
+    <string name="req_flores_grandes">1 vez por mes</string>
+    <string name="req_joyeria">1-2 veces por año</string>
+    <string name="req_salida">1 vez por mes</string>
+
+    <!-- Historial -->
+    <string name="historial_title">Historial</string>
+    <string name="historial_full_title">Historial completo</string>
+    <string name="historial_vacio">Aún no hiciste nada hoy 😅</string>
+    <string name="eliminar_accion">Eliminar</string>
+    <string name="confirm_delete_accion">¿Eliminar este registro?</string>
+    <string name="editar_accion">Editar</string>
+    <string name="ultimas_acciones">Últimas acciones</string>
+
+    <!-- Dashboard navigation -->
+    <string name="dar_algo_btn">+ Dar algo</string>
+    <string name="ver_historial_btn">Ver historial completo</string>
+
+    <!-- Acciones screen -->
+    <string name="acciones_title">Hacer algo bueno</string>
+    <string name="listo_btn">✓ Listo</string>
+
+    <!-- Partner setup -->
+    <string name="setup_partner_title">¿Con quién jugás?</string>
+    <string name="setup_partner_msg">Ingresá el nombre de tu pareja</string>
+    <string name="setup_partner_hint">Nombre de tu pareja</string>
+
+    <!-- Overdose sweets -->
+    <string name="overdose_title">¡Ya basta de dulces! 🐄</string>
+
+    <!-- Random weight event -->
+    <string name="event_peso_title">Una pregunta seria… 🥺</string>
+    <string name="event_peso_si">Quizás un poquito… 😅</string>
+    <string name="event_peso_no">¡Para nada, estás perfecta! 😍</string>
+
+    <!-- Death screen -->
+    <string name="muerte_title">💢 ¡MODO FURIA TOTAL!</string>
+    <string name="muerte_btn">Prometo mejorar 😔</string>
+
+    <!-- Onboarding -->
+    <string name="onb1_title">¿Tu pareja tiene\nmecha corta?</string>
+    <string name="onb1_subtitle">Sabemos exactamente cómo ayudarte</string>
+    <string name="onb2_title">Las reglas del juego</string>
+    <string name="onb2_subtitle">Cumplí los desafíos diarios\ny mantené la paz en casa</string>
+    <string name="onb3_title">¿Aceptás el reto?</string>
+    <string name="onb3_subtitle">Unite y empezá a jugar</string>
+    <string name="onb_next">Siguiente →</string>
+    <string name="onb_skip">Saltar</string>
+</resources>

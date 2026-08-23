@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#880E4F</color>
+    <color name="colorPrimaryDark">#560027</color>
+
+    <color name="moodHappy">#2E7D32</color>
+    <color name="moodWarning">#F57F17</color>
+    <color name="moodAngry">#E65100</color>
+    <color name="moodFurious">#B71C1C</color>
+
+    <color name="btnPalabras">#FCE4EC</color>
+    <color name="btnDulces">#EFEBE9</color>
+    <color name="btnFlores">#FCE4EC</color>
+    <color name="btnFloresGrandes">#F3E5F5</color>
+    <color name="btnJoyeria">#FFFDE7</color>
+    <color name="btnSalida">#E3F2FD</color>
+</resources>

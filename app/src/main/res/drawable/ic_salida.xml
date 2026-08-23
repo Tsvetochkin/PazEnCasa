@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- Movie circle background -->
+    <path android:fillColor="#212121"
+        android:pathData="M10,50 a40,40 0 1,0 80,0 a40,40 0 1,0 -80,0"/>
+    <!-- Film perforations -->
+    <path android:fillColor="#424242" android:pathData="M12,30 L18,30 L18,36 L12,36 Z"/>
+    <path android:fillColor="#424242" android:pathData="M12,44 L18,44 L18,50 L12,50 Z"/>
+    <path android:fillColor="#424242" android:pathData="M12,58 L18,58 L18,64 L12,64 Z"/>
+    <path android:fillColor="#424242" android:pathData="M82,30 L88,30 L88,36 L82,36 Z"/>
+    <path android:fillColor="#424242" android:pathData="M82,44 L88,44 L88,50 L82,50 Z"/>
+    <path android:fillColor="#424242" android:pathData="M82,58 L88,58 L88,64 L82,64 Z"/>
+    <!-- Play triangle (white) -->
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M36,30 L36,70 L74,50 Z"/>
+</vector>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "708449672628",
+    "project_id": "pepe-2d317",
+    "storage_bucket": "pepe-2d317.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708449672628:android:15d43f9463c7dc6342e6e1",
+        "android_client_info": {
+          "package_name": "com.company.pepe"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEUF0EZe8mM7FKcAp_nNyXaBq19mhDbjM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

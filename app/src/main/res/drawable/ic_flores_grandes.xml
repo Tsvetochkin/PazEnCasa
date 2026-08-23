@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- Stems -->
+    <path android:pathData="M35,65 L28,90" android:fillColor="#00000000" android:strokeColor="#388E3C" android:strokeWidth="3" android:strokeLineCap="round"/>
+    <path android:pathData="M50,68 L50,90" android:fillColor="#00000000" android:strokeColor="#388E3C" android:strokeWidth="3" android:strokeLineCap="round"/>
+    <path android:pathData="M65,65 L72,90" android:fillColor="#00000000" android:strokeColor="#388E3C" android:strokeWidth="3" android:strokeLineCap="round"/>
+    <!-- Ribbon bow -->
+    <path android:fillColor="#E91E63" android:pathData="M38,82 Q50,78 62,82 Q50,86 38,82 Z"/>
+
+    <!-- Left flower petals -->
+    <group android:pivotX="30" android:pivotY="48" android:rotation="0">
+        <path android:fillColor="#AB47BC" android:pathData="M26,36 Q30,26 34,36 Q37,44 30,47 Q23,44 26,36 Z"/>
+    </group>
+    <group android:pivotX="30" android:pivotY="48" android:rotation="90">
+        <path android:fillColor="#CE93D8" android:pathData="M26,36 Q30,26 34,36 Q37,44 30,47 Q23,44 26,36 Z"/>
+    </group>
+    <group android:pivotX="30" android:pivotY="48" android:rotation="180">
+        <path android:fillColor="#AB47BC" android:pathData="M26,36 Q30,26 34,36 Q37,44 30,47 Q23,44 26,36 Z"/>
+    </group>
+    <group android:pivotX="30" android:pivotY="48" android:rotation="270">
+        <path android:fillColor="#CE93D8" android:pathData="M26,36 Q30,26 34,36 Q37,44 30,47 Q23,44 26,36 Z"/>
+    </group>
+    <path android:fillColor="#FDD835" android:pathData="M24,48 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0"/>
+
+    <!-- Center flower petals -->
+    <group android:pivotX="50" android:pivotY="45" android:rotation="0">
+        <path android:fillColor="#EC407A" android:pathData="M46,33 Q50,23 54,33 Q57,41 50,44 Q43,41 46,33 Z"/>
+    </group>
+    <group android:pivotX="50" android:pivotY="45" android:rotation="90">
+        <path android:fillColor="#F48FB1" android:pathData="M46,33 Q50,23 54,33 Q57,41 50,44 Q43,41 46,33 Z"/>
+    </group>
+    <group android:pivotX="50" android:pivotY="45" android:rotation="180">
+        <path android:fillColor="#EC407A" android:pathData="M46,33 Q50,23 54,33 Q57,41 50,44 Q43,41 46,33 Z"/>
+    </group>
+    <group android:pivotX="50" android:pivotY="45" android:rotation="270">
+        <path android:fillColor="#F48FB1" android:pathData="M46,33 Q50,23 54,33 Q57,41 50,44 Q43,41 46,33 Z"/>
+    </group>
+    <path android:fillColor="#FDD835" android:pathData="M44,45 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0"/>
+
+    <!-- Right flower petals -->
+    <group android:pivotX="70" android:pivotY="48" android:rotation="0">
+        <path android:fillColor="#EF5350" android:pathData="M66,36 Q70,26 74,36 Q77,44 70,47 Q63,44 66,36 Z"/>
+    </group>
+    <group android:pivotX="70" android:pivotY="48" android:rotation="90">
+        <path android:fillColor="#EF9A9A" android:pathData="M66,36 Q70,26 74,36 Q77,44 70,47 Q63,44 66,36 Z"/>
+    </group>
+    <group android:pivotX="70" android:pivotY="48" android:rotation="180">
+        <path android:fillColor="#EF5350" android:pathData="M66,36 Q70,26 74,36 Q77,44 70,47 Q63,44 66,36 Z"/>
+    </group>
+    <group android:pivotX="70" android:pivotY="48" android:rotation="270">
+        <path android:fillColor="#EF9A9A" android:pathData="M66,36 Q70,26 74,36 Q77,44 70,47 Q63,44 66,36 Z"/>
+    </group>
+    <path android:fillColor="#FDD835" android:pathData="M64,48 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0"/>
+</vector>

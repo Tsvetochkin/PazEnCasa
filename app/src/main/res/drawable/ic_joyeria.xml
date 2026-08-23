@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- Ring band -->
+    <path android:fillColor="#FFD54F"
+        android:pathData="M25,72 Q50,82 75,72 Q75,78 50,85 Q25,78 25,72 Z"/>
+    <path android:fillColor="#FFB300"
+        android:pathData="M25,68 Q50,78 75,68 Q75,72 50,82 Q25,72 25,68 Z"/>
+    <!-- Diamond gem -->
+    <path android:fillColor="#4FC3F7"
+        android:pathData="M50,15 L78,48 L50,68 L22,48 Z"/>
+    <!-- Top facets -->
+    <path android:fillColor="#B3E5FC"
+        android:pathData="M50,15 L22,48 L50,38 Z"/>
+    <path android:fillColor="#81D4FA"
+        android:pathData="M50,15 L78,48 L50,38 Z"/>
+    <!-- Bottom facets -->
+    <path android:fillColor="#29B6F6"
+        android:pathData="M22,48 L50,68 L50,55 Z"/>
+    <path android:fillColor="#0288D1"
+        android:pathData="M78,48 L50,68 L50,55 Z"/>
+    <!-- Center line -->
+    <path android:pathData="M22,48 L78,48"
+        android:fillColor="#00000000"
+        android:strokeColor="#E1F5FE"
+        android:strokeWidth="1.5"/>
+    <!-- Sparkle -->
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M50,38 L51.5,42 L50,46 L48.5,42 Z"/>
+</vector>

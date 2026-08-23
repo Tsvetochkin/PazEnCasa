@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <!-- Page 1: El problema -->
+    <LinearLayout
+        android:id="@+id/page1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="36dp"
+        android:background="#B71C1C">
+
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:src="@drawable/mood_furious"
+            android:layout_marginBottom="32dp"
+            android:contentDescription="Enojo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/onb1_title"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="14dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/onb1_subtitle"
+            android:textColor="#FFCDD2"
+            android:textSize="16sp"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <!-- Page 2: Las reglas -->
+    <LinearLayout
+        android:id="@+id/page2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="32dp"
+        android:background="#1A237E">
+
+        <!-- Icon grid row 1 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="10dp">
+
+            <LinearLayout android:layout_width="80dp" android:layout_height="wrap_content" android:orientation="vertical" android:gravity="center">
+                <ImageView android:layout_width="52dp" android:layout_height="52dp" android:src="@drawable/ic_palabras"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Palabras" android:textColor="#FFFFFF" android:textSize="10sp" android:layout_marginTop="4dp"/>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="80dp" android:layout_height="wrap_content" android:orientation="vertical" android:gravity="center">
+                <ImageView android:layout_width="52dp" android:layout_height="52dp" android:src="@drawable/ic_dulces"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Dulces" android:textColor="#FFFFFF" android:textSize="10sp" android:layout_marginTop="4dp"/>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="80dp" android:layout_height="wrap_content" android:orientation="vertical" android:gravity="center">
+                <ImageView android:layout_width="52dp" android:layout_height="52dp" android:src="@drawable/ic_flores"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Flores" android:textColor="#FFFFFF" android:textSize="10sp" android:layout_marginTop="4dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Icon grid row 2 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="32dp">
+
+            <LinearLayout android:layout_width="80dp" android:layout_height="wrap_content" android:orientation="vertical" android:gravity="center">
+                <ImageView android:layout_width="52dp" android:layout_height="52dp" android:src="@drawable/ic_flores_grandes"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ramo" android:textColor="#FFFFFF" android:textSize="10sp" android:layout_marginTop="4dp"/>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="80dp" android:layout_height="wrap_content" android:orientation="vertical" android:gravity="center">
+                <ImageView android:layout_width="52dp" android:layout_height="52dp" android:src="@drawable/ic_joyeria"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Joyería" android:textColor="#FFFFFF" android:textSize="10sp" android:layout_marginTop="4dp"/>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="80dp" android:layout_height="wrap_content" android:orientation="vertical" android:gravity="center">
+                <ImageView android:layout_width="52dp" android:layout_height="52dp" android:src="@drawable/ic_salida"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Salida" android:textColor="#FFFFFF" android:textSize="10sp" android:layout_marginTop="4dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/onb2_title"
+            android:textColor="#FFFFFF"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/onb2_subtitle"
+            android:textColor="#C5CAE9"
+            android:textSize="15sp"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <!-- Page 3: Aceptá el reto -->
+    <LinearLayout
+        android:id="@+id/page3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="36dp"
+        android:background="#1B5E20">
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/mood_happy"
+            android:layout_marginBottom="24dp"
+            android:contentDescription="Feliz" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/onb3_title"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/onb3_subtitle"
+            android:textColor="#C8E6C9"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_marginBottom="40dp" />
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/register_btn"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#1B5E20"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login_btn"
+            android:textColor="#FFFFFF"
+            app:strokeColor="#FFFFFF"
+            style="@style/Widget.Material3.Button.OutlinedButton" />
+
+    </LinearLayout>
+
+    <!-- Dots indicator -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingBottom="96dp"
+        android:elevation="10dp">
+
+        <TextView android:id="@+id/dot1" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="●" android:textSize="20sp" android:textColor="#FFFFFF" android:layout_marginHorizontal="6dp"/>
+        <TextView android:id="@+id/dot2" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="●" android:textSize="20sp" android:textColor="#55FFFFFF" android:layout_marginHorizontal="6dp"/>
+        <TextView android:id="@+id/dot3" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="●" android:textSize="20sp" android:textColor="#55FFFFFF" android:layout_marginHorizontal="6dp"/>
+
+    </LinearLayout>
+
+    <!-- Next button -->
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:text="@string/onb_next"
+        android:textColor="#FFFFFF"
+        android:layout_margin="24dp"
+        android:elevation="10dp"
+        app:strokeColor="#FFFFFF"
+        style="@style/Widget.Material3.Button.OutlinedButton" />
+
+    <!-- Skip button -->
+    <TextView
+        android:id="@+id/btn_skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:text="@string/onb_skip"
+        android:textColor="#CCFFFFFF"
+        android:textSize="14sp"
+        android:padding="20dp"
+        android:elevation="10dp" />
+
+</FrameLayout>

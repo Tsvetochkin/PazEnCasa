@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF0F4">
+
+    <!-- Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="12dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_partner_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Estado de tu pareja"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_user_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#F8BBD9"
+                android:textSize="11sp"
+                android:maxWidth="160dp"
+                android:ellipsize="end"
+                android:singleLine="true" />
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/btn_menu"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_more_vert"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/menu_btn" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Mood card -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                app:cardElevation="4dp"
+                app:cardCornerRadius="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="20dp">
+
+                    <ImageView
+                        android:id="@+id/iv_mood"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/mood_furious"
+                        android:contentDescription="Estado" />
+
+                    <TextView
+                        android:id="@+id/tv_peligro"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="20%"
+                        android:textSize="48sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/moodFurious"
+                        android:layout_marginTop="8dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/danger_label"
+                        android:textSize="12sp"
+                        android:textColor="#888888" />
+
+                    <ProgressBar
+                        android:id="@+id/progress_danger"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="14dp"
+                        android:layout_marginTop="10dp"
+                        android:max="100"
+                        android:progress="20"
+                        android:progressTint="@color/moodFurious"
+                        android:progressBackgroundTint="#E0E0E0" />
+
+                    <TextView
+                        android:id="@+id/tv_estado"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/estado_furiosa"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/moodFurious"
+                        android:layout_marginTop="10dp" />
+
+                    <TextView
+                        android:id="@+id/tv_sugerencia"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:background="#FCE4EC"
+                        android:padding="12dp"
+                        android:text=""
+                        android:textColor="#880E4F"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:gravity="center" />
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Racha card -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginBottom="12dp"
+                app:cardBackgroundColor="#FFF8E1"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/tv_racha"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="14dp"
+                    android:text="🌱 Arrancá la racha hoy"
+                    android:textColor="#E65100"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:gravity="center" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Nav buttons -->
+            <Button
+                android:id="@+id/btn_acciones"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginBottom="8dp"
+                android:text="@string/dar_algo_btn"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:backgroundTint="@color/colorPrimary" />
+
+            <Button
+                android:id="@+id/btn_historial_full"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginBottom="16dp"
+                android:text="@string/ver_historial_btn"
+                android:textColor="@color/colorPrimary"
+                app:strokeColor="@color/colorPrimary"
+                style="@style/Widget.Material3.Button.OutlinedButton" />
+
+            <!-- Mini history -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ultimas_acciones"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#444444"
+                android:paddingHorizontal="16dp"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:id="@+id/tv_vacio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/historial_vacio"
+                android:textColor="#AAAAAA"
+                android:gravity="center"
+                android:padding="24dp"
+                android:visibility="gone" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_historial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="false"
+                android:paddingBottom="16dp"
+                android:clipToPadding="false" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
